@@ -1,6 +1,14 @@
-<<<<<<< HEAD
-# formulario
-=======
+
+# formulario - Instruções para execução
+
+Para a correta execução do sistema, primeiro é nescessário a instalação do composer [https://getcomposer.org/](https://getcomposer.org/) que irá fazer a gerência dos pacotes necessários. E também a instalação do PHP 7 ou superior [https://www.php.net/](https://www.php.net/).
+
+Após essas instalações é preciso navegar, com o terminal do sistema operacional, até a pasta onde ficará o projeto da aplicação. Então executa-se o comando "composer create-project --prefer-dist laravel/laravel nomeDoProjeto". Esse comando fará com que o composer crie um novo projeto Laravel.
+
+Com um novo projeto Laravel já criado, o próximo passo é baixar os códigos do projeto formularioFinal no gitHub [https://github.com/BrunoCardozo/formularioFinal](https://github.com/BrunoCardozo/formularioFinal). Por fim, basta copiar todos os códigos baixados para a pasta do projeto Laravel criado inicialmente, substituindo todos os arquivos de mesmo nome.
+
+Com o projeto pronto, é preciso navegar até a pasta do projeto com o terminar e executar o comando "php artisan serve". Um servidor de teste ficará disponivel para a aplicação na porta 8000. A aplicação pode ser acessada pelo navegador em "localhost:8000".
+
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
@@ -80,4 +88,3 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
->>>>>>> Primeiro commit do projeto.
