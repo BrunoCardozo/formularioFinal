@@ -1,0 +1,57 @@
+#container-resultado-submit{
+	box-sizing: border-box;
+	margin: 5px;
+	margin-top: 30px;
+	border: 1px solid gray;
+	border-radius: 10px;
+	padding: 20px;
+	font-size: 18px;
+	background-color: white;
+	text-align: left;
+}
+
+#container-resultado-submit h1{
+	color: rgb(80,80,80);
+	margin: 5px;
+	margin-bottom: 20px;
+	margin-left: 170px;
+	text-align: left;
+}
+
+.label-resultado{
+	text-align: left;
+	color: rgb(80,80,80);
+	margin-top: 5px;
+	margin-left: 170px;
+	line-height: 2.0rem;
+}
+
+#botao-novo-cadastro{
+	text-align: right;
+	margin-bottom: 20px;
+}
+
+#link-novo-cadastro{
+	background-color: rgba(223,139,74,1);
+	color: white;
+	margin-right: 4px;
+	width: 180px;
+	height: 40px;
+	border-radius: 8px;
+	cursor: pointer;
+	text-align: center;
+	font-weight: bold;
+	border-bottom: 2px solid #BE6421;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+	font-size: 14px;
+	font-style: 'Roboto Condensed', sans-serif;
+}
+
+#link-novo-cadastro:hover{
+	background-color: rgba(203,119,54,1);
+	transition: ease-in-out .5s;
+}
